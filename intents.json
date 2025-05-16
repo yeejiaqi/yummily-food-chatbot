@@ -1,0 +1,88 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Hi there",
+          "Hola",
+          "Hello there"
+        ],
+        "responses": [
+          "Hey :)",
+          "Hello, thanks for using Yummily Foodbot~",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Good bye"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "recipe",
+        "patterns": [
+          "What can I cook?",
+          "Show me top-selected recipes",
+          "I want to cook something",
+          "Suggest me something to cook",
+          "Show me any recipe that is possible for beginner cooking purpose",
+          "What are the recipes that you have?"
+        ],
+        "responses": [
+          "Here are some recipes for you!"
+        ]
+      },
+      {
+        "tag": "allergy",
+        "patterns": [
+          "I have allergy",
+          "I am allergy to certain food type",
+          "Is there any allergy-exceptional recipe?"
+        ]
+        
+      },
+      {
+        "tag": "dislike",
+        "patterns": [
+          "I dislike certain food type",
+          "I dont wish to have certain ingredient in my recipe",
+          "May i remove the recipe with ingredient that i dislike?"
+        ]
+      },
+      {
+        "tag": "like",
+        "patterns": [
+          "I like certain food type",
+          "I wish to have certain ingredient in my recipe",
+          "I want you to recommend me recipe with a certain ingredient"
+        ]
+      },
+      {
+        "tag": "save",
+        "patterns": [
+          "save",
+          "save the recipe",
+          "I want to save the recipe",
+          "Can you help me to save the recipe",
+          "Please save the recipe"
+        ]
+      },
+      {
+        "tag": "show",
+        "patterns": [
+          "show the saved recipe",
+          "Can you show me the saved recipe",
+          "I want you to show me the saved recipe",
+          "Please show me the saved recipe"
+        ]
+      }
+    ]
+  } 

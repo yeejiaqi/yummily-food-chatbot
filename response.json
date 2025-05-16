@@ -1,0 +1,62 @@
+[
+    {
+        "bot_response": ["Hey :)", "Hello, thanks for using Yummily Foodbot~", "Hi there, what can I do for you?", "Hi there, how can I help?"],
+        "list of words": ["hi", "hey", "hello", "hola"],
+        "single_response": false,
+        "required_words": []
+    },
+    {
+        "bot_response": ["Hey :)", "Hello, thanks for using Yummily Foodbot~", "Hi there, what can I do for you?", "Hi there, how can I help?"],
+        "list of words": ["how", "are", "you"],
+        "single_response": false,
+        "required_words": ["how"]
+    },
+    {
+        "bot_response": ["Thanks for using Yummily Foodbot and hope to help you again!"],
+        "list of words": ["bye", "goodbye", "see", "later"],
+        "single_response": true,
+        "required_words": ["bye", "goodbye", "later"]
+    },
+    {
+        "bot_response": ["Happy to help!", "Any time!", "My pleasure"],
+        "list of words": ["thank", "helpful", "thanks"],
+        "single_response": false,
+        "required_words": []
+    },
+    {
+        "bot_response": ["Here are some recipes for you!"],
+        "list of words": ["suggest", "cook", "show", "recipe", "top"],
+        "single_response": false,
+        "required_words": []
+    },
+    {
+        "bot_response": ["Seems like you are allergy to certain ingredient, which ingredient are u allergic to?"],
+        "list of words": ["allergic", "allergy"],
+        "single_response": false,
+        "required_words": []
+    },
+    {
+        "bot_response": ["Seems like you dont wish to include certain ingredient, which ingredient that you wish to remove?"],
+        "list of words": ["dislike", "don't", "dont"],
+        "single_response": false,
+        "required_words": []
+    },
+    {
+        "bot_response": ["Seems like you are interested to certain ingredient, which ingredient are you interested in?"],
+        "list of words": ["like", "food", "recommend", "wish"],
+        "single_response": true,
+        "required_words": ["like", "recommend", "wish"]
+    },
+    {
+        "bot_response": ["The recipe has been saved"],
+        "list of words": ["save"],
+        "single_response": false,
+        "required_words": ["save"]
+    },
+    {
+        "bot_response": ["No problem, here is the recipe that has been saved"],
+        "list of words": ["show", "saved"],
+        "single_response": false,
+        "required_words": ["show", "saved"]
+    }
+]
