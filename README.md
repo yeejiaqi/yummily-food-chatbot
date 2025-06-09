@@ -1,2 +1,1 @@
-# Yummily
-An AI chatbot
+Yummily is an intelligent chatbot designed to assist users in discovering personalized recipes based on their preferences, dietary restrictions, and ingredient interests. Powered by natural language processing and a neural network model, Yummily understands user inputs, suggests recipes, filters out unwanted ingredients, and allows users to save and view their favorite dishes. The chatbot features real-time conversation, adaptive recommendations, making meal planning effortless and interactive.
